@@ -123,7 +123,7 @@ class ListSpec extends FlatSpec {
   }
 
   //3.12
-  val reverseList = List(1);
+  val reverseList = List(1)
   "reverse" should "return the input list for Nil" in {
     assert(reverse(Nil)===Nil)
   }
